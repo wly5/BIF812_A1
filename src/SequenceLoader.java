@@ -4,6 +4,13 @@ import java.nio.file.Paths;
 
 import javax.swing.JFileChooser;
 
+/**
+ * Testing a commit to send from Eclipse to Github
+ * 
+ * @author Winfield
+ *
+ */
+
 public abstract class SequenceLoader {
 
 	protected String sequence;
