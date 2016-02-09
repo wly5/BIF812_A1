@@ -6,7 +6,7 @@ import javax.swing.JFileChooser;
 
 /**
  * Testing a commit to send from Eclipse to Github
- * 
+ * This class loads sequence data from a file.
  * @author Winfield
  *
  */
