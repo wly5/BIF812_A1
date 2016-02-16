@@ -13,7 +13,7 @@ public class MiniGenBankSeq extends SequenceLoader {
 
 	// getter methods
 	public String getLocus() {
-		if (locus.equals(null)) {
+		if (locus == null) {
 			return "Value not initialized.";
 		}
 		else {
@@ -21,7 +21,7 @@ public class MiniGenBankSeq extends SequenceLoader {
 		}
 	}
 	public String getAccessionNumber() {
-		if (accessionNumber.equals(null)) {
+		if (accessionNumber == null) {
 			return "Value not initialized.";
 		}
 		else {
@@ -29,7 +29,7 @@ public class MiniGenBankSeq extends SequenceLoader {
 		}
 	}
 	public String getDefinition() {
-		if (definition.equals(null)) {
+		if (definition == null) {
 			return "Value not initialized.";
 		}
 		else {
@@ -37,7 +37,7 @@ public class MiniGenBankSeq extends SequenceLoader {
 		}
 	}
 	public String getSource() {
-		if (source.equals(null)) {
+		if (source == null) {
 			return "Value not initialized.";
 		}
 		else {
@@ -58,16 +58,21 @@ public class MiniGenBankSeq extends SequenceLoader {
 	public void setSource(String source) {
 		this.source = source;
 	}
-	
+
 	// No argument constructor
 	public MiniGenBankSeq() {
-		
+		//this.locus = "Value not initialized";
+		//this.accessionNumber = "Value not initialized";
+		//this.definition = "Value not initialized";
+		//this.source = "Value not initialized";
 	}
 	
 	// 2 argument constructor
 	public MiniGenBankSeq(String locus, String accessionNumber) {
 		this.locus = locus;
 		this.accessionNumber = accessionNumber;
+		//this.definition = "Value not initialized";
+		//this.source = "Value not initialized";
 	}
 	
 	// 4 argument constructor
@@ -85,7 +90,7 @@ public class MiniGenBankSeq extends SequenceLoader {
 	 */
 	@Override
 	public String toString(){
-		return "Contents\n" + "Locus: " + locus + "\nAccession number: "+ accessionNumber + "\nDefinition: " + definition + "\nSource: " + source + "\n"; 
+		return "Contents\n" + "Locus: " + getLocus() + "\nAccession number: "+ getAccessionNumber() + "\nDefinition: " + getDefinition() + "\nSource: " + getSource() + "\n"; 
 	}
 	
 }
