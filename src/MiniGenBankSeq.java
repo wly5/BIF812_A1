@@ -61,22 +61,17 @@ public class MiniGenBankSeq extends SequenceLoader {
 
 	// No argument constructor
 	public MiniGenBankSeq() {
-		//this.locus = "Value not initialized";
-		//this.accessionNumber = "Value not initialized";
-		//this.definition = "Value not initialized";
-		//this.source = "Value not initialized";
+
 	}
 	
 	// 2 argument constructor
 	public MiniGenBankSeq(String locus, String accessionNumber) {
 		this.locus = locus;
 		this.accessionNumber = accessionNumber;
-		//this.definition = "Value not initialized";
-		//this.source = "Value not initialized";
+
 	}
 	
 	// 4 argument constructor
-	// Data taken from this record: http://www.ncbi.nlm.nih.gov/nucleotide/AF165912
 	public MiniGenBankSeq(String locus, String accessionNumber, String definition, String source) {
 		this.locus = locus;
 		this.accessionNumber = accessionNumber;
