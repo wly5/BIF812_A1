@@ -1,8 +1,7 @@
+import java.io.StringWriter;
 
-public class StringWriterMiniGenBankSeq {
+public class StringWriterMiniGenBankSeq extends MiniGenBankSeq{
 
-	public StringWriterMiniGenBankSeq() {
 
-	}
 
 }
