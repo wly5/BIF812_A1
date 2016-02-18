@@ -26,5 +26,6 @@ public class TestSB {
 		long nanoseconds5 = testSB5.testConcatenate(10);
 		double seconds5 = nanoseconds5 / (double)1000000000; 
 		System.out.println("Concatenating 10 times using StringBuilder 10M.txt took " + seconds5 + " seconds");
+	
 	}
 }

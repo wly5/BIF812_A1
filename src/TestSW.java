@@ -1,6 +1,7 @@
 
 public class TestSW {
 	public static void main (String[] args) {
+		
 		StringWriterMiniGenBankSeq testSW = new StringWriterMiniGenBankSeq();
 		long nanoseconds = testSW.testConcatenate(100000);
 		double seconds = nanoseconds / (double)1000000000; 
@@ -24,7 +25,7 @@ public class TestSW {
 		StringWriterMiniGenBankSeq testSW5 = new StringWriterMiniGenBankSeq();
 		long nanoseconds5 = testSW5.testConcatenate(10);
 		double seconds5 = nanoseconds5 / (double)1000000000;
-		System.out.println("Concatenating 100 times using StringWriter using the 1M.txt took " + seconds5 + " seconds");
+		System.out.println("Concatenating 100 times using StringWriter using the 10M.txt took " + seconds5 + " seconds");
 		
 	}
 
