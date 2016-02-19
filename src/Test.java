@@ -17,6 +17,14 @@ source (including web sites) or distributed to other students.
 Name: Winfield Ly 
 Student ID: 014587158
 */
+
+/**
+ * Used the testConcatenate method from SequenceLoader class given the number of times
+ * it will concatenate the string. Then convert the time which was originally in 
+ * nanoseconds to seconds to compare the operation time easier.
+ * @author Winfield
+ *
+ */
 public class Test {
 	public static void main(String[] args) {
 		

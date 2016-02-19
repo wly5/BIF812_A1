@@ -20,6 +20,13 @@ Student ID: 014587158
 
 import java.io.StringWriter;
 
+/**
+ * StringWriter's append function is used to add a specified string (which is in this case,
+ * s) to the end of the stringwriter as many times as specified according to the 
+ * integer times.
+ * @author Winfield
+ *
+ */
 public class StringWriterMiniGenBankSeq extends MiniGenBankSeq {
 	
 	@Override

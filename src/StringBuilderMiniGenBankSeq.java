@@ -17,6 +17,14 @@ source (including web sites) or distributed to other students.
 Name: Winfield Ly 
 Student ID: 014587158
 */
+
+/**
+ * StringBuilder's append function is used to add a specified string (which is in this case,
+ * s) to the end of the stringbuilder as many times as specified according to the 
+ * integer times.
+ * @author Winfield
+ *
+ */
 public class StringBuilderMiniGenBankSeq extends MiniGenBankSeq {
 	
 	@Override

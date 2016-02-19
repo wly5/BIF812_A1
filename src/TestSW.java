@@ -17,6 +17,14 @@ source (including web sites) or distributed to other students.
 Name: Winfield Ly 
 Student ID: 014587158
 */
+
+/**
+ * Override the Concatenate method from SequenceLoader class, and used the testConcatenate
+ * method given the number of times it will concatenate the string. Then convert the 
+ * time which was originally in nanoseconds to seconds to compare the operation time easier.
+ * @author Winfield
+ *
+ */
 public class TestSW {
 	public static void main (String[] args) {
 		
