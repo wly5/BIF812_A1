@@ -37,8 +37,5 @@ public class StringBuilderMiniGenBankSeq extends MiniGenBankSeq {
 		sequence = sb.toString();
 		
 	}
-	@Override
-	public String toString() {
-		return super.toString() + " Sequence: " + sequence;
-	}
+	
 }

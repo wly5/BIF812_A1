@@ -39,10 +39,5 @@ public class StringWriterMiniGenBankSeq extends MiniGenBankSeq {
 		sequence = sw.toString();
 		
 	}
-	@Override
-	public String toString() {
-		return super.toString() + " Sequence: " + sequence;
-	}
-
 
 }
