@@ -135,8 +135,7 @@ public class MiniGenBankSeq extends SequenceLoader {
 	 * @param source
 	 */
 	public MiniGenBankSeq(String locus, String accessionNumber, String definition, String source) {
-		this.locus = locus;
-		this.accessionNumber = accessionNumber;
+		this (locus, accessionNumber);
 		this.definition = definition;
 		this.source = source;
 	}
