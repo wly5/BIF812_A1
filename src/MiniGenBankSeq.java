@@ -25,7 +25,9 @@ Student ID: 014587158
  *
  */
 public class MiniGenBankSeq extends SequenceLoader {
-	// Fields to identify a Genbank entry
+	/**
+	 * Fields to identify a Genbank entry
+	 */
 	private String locus;
 	private String accessionNumber;
 	private String definition;
